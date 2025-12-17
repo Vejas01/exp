@@ -28,16 +28,8 @@ export default function Projects() {
         <section id="projects" className="projects-section" style={{ minHeight: '100vh', padding: '8rem 0' }}>
             <div className="container">
                 <ScrollReveal>
-                    <div className="section-header"
-                        style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end', marginBottom: '4rem', borderBottom: '1px solid #e2e8f0', paddingBottom: '2rem' }}
-                    >
-                        <div>
-                            <span style={{ color: 'var(--primary)', fontFamily: 'var(--font-display)', fontSize: '1.2rem', letterSpacing: '2px' }}>PORTFOLIO</span>
-                            <h2 style={{ fontSize: '4rem', margin: 0, lineHeight: 1 }}>FEATURED <br /> WORK</h2>
-                        </div>
-                        <div className="mobile-hide">
-                            <a href="#" className="btn btn-glass">VIEW ALL WORK</a>
-                        </div>
+                    <div className="section-header" style={{ marginBottom: '4rem' }}>
+                        <h2 style={{ fontSize: '3rem', marginBottom: '0.5rem' }}><span style={{ color: 'var(--primary)' }}>Projects</span></h2>
                     </div>
                 </ScrollReveal>
 
@@ -64,7 +56,6 @@ export default function Projects() {
                                         </div>
                                     </div>
                                 </div>
-
                                 <div style={{ marginTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--tertiary)', paddingBottom: '1rem' }}>
                                     <div>
                                         <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', fontFamily: 'var(--font-mono)', textTransform: 'uppercase' }}>{project.category}</span>
